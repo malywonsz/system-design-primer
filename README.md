@@ -1,45 +1,45 @@
 *[English](README.md) ∙ [简体中文](README-zh-Hans.md) | [Brazilian Portuguese](https://github.com/donnemartin/system-design-primer/issues/40) ∙ [Turkish](https://github.com/donnemartin/system-design-primer/issues/39) | [Add Translation](https://github.com/donnemartin/system-design-primer/issues/28)*
 
-# The System Design Primer
+# Podstawy projektowania systemów
 
 <p align="center">
   <img src="http://i.imgur.com/jj3A5N8.png">
   <br/>
 </p>
 
-## Motivation
+## Cel
 
-> Learn how to design large-scale systems.
+> Nauka projektowania systemów dużej skali.
 >
-> Prep for the system design interview.
+> Przygotowanie do rozmowy o pracę na stanowisko projektanta systemów.
 
-### Learn how to design large-scale systems
+### Nauka projektowania systemów dużej skali.
 
-Learning how to design scalable systems will help you become a better engineer.
+Nauka projektowania skalowalnych systemów pozwoli ci stać się lepszym inżynierem.
 
-System design is a broad topic.  There is a **vast amount of resources scattered throughout the web** on system design principles.
+Projektowanie systemów jest obszernym tematem. W Internecie istnieje **duża ilość zasobów** opisujących zasady ich projektowania. 
 
-This repo is an **organized collection** of resources to help you learn how to build systems at scale.
+To repozytorium jest **zorganizowanym zbiorem** materiałów, które powinny pomóc w nauce budowy dużych systemów.
 
-### Learn from the open source community
+### Nauka od środowiska open source
 
-This is an early draft of a continually updated, open source project.
+To jest pierwszy draf, ciągle uaktualnianego, open source'owego projektu. 
 
-[Contributions](#contributing) are welcome!
+Zachęcamy do [kontrbucji](#contributing)!
 
-### Prep for the system design interview
+### Przygotowanie do rozmowy o pracę
 
-In addition to coding interviews, system design is a **required component** of the **technical interview process** at many tech companies.
+Poza zwyczajowym testem z kodowania, projektowanie systemów jest **niezbędnym etapem** rozmowy o pracę, w wielu firmach.
 
-**Practice common system design interview questions** and **compare** your results with **sample solutions**: discussions, code, and diagrams.
+**Ćwicz typowe zadania z projektowania systemów** i **porównuj** swoje odpowiedzi z **przykładowymi rozwiązaniami**: dyskusjami, kodem i diagramami.
 
-Additional topics for interview prep:
+Dodatkowe tematy związane z przygotowaniem do rozmowy o pracę:
 
-* [Study guide](#study-guide)
-* [How to approach a system design interview question](#how-to-approach-a-system-design-interview-question)
-* [System design interview questions, **with solutions**](#system-design-interview-questions-with-solutions)
-* [Object-oriented design interview questions, **with solutions**](#object-oriented-design-interview-questions-with-solutions)
-* [Additional system design interview questions](#additional-system-design-interview-questions)
+* [Przewodnik](#study-guide)
+* [Jak odpowiadać na pytania o projektowanie systemów](#how-to-approach-a-system-design-interview-question)
+* [Rozmowa o pracę: pytania z projektowania systemów. **Z rozwiązaniami!**](#system-design-interview-questions-with-solutions)
+* [Rozmowa o pracę: pytania z projektowania zorientowania. **Z rozwiązaniami!**](#object-oriented-design-interview-questions-with-solutions)
+* [Rozmowa o pracę: dodatkowe pytania z projektowania systemów](#additional-system-design-interview-questions)
 
 ## Anki flashcards
 
