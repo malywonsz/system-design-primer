@@ -48,87 +48,87 @@ Dodatkowe tematy związane z przygotowaniem do rozmowy o pracę:
   <br/>
 </p>
 
-The provided [Anki flashcard decks](https://apps.ankiweb.net/) use spaced repetition to help you retain key system design concepts.
+Możesz powtarzać materiał i zapamiętywać główne idee, używane przy projektowaniu systemu, korzystając z dostarczonych przez nas [Anki flashcard decks](https://apps.ankiweb.net/).
 
 * [System design deck](resources/flash_cards/System%20Design.apkg)
-* [System design exercises deck](resources/flash_cards/System%20Design%20Exercises.apkg)
-* [Object oriented design exercises deck](resources/flash_cards/OO%20Design.apkg)
+* [System design - ćwiczenia deck](resources/flash_cards/System%20Design%20Exercises.apkg)
+* [Object oriented design - ćwiczenia deck](resources/flash_cards/OO%20Design.apkg)
 
-Great for use while on-the-go.
+Świetnie spełnią swoją rolę, gdy jesteś w podróży!
 
-### Coding Resource: Interactive Coding Challenges
+### Materiały z kodowania: Interactive Coding Challenges
 
-Looking for resources to help you prep for the [**Coding Interview**](https://github.com/donnemartin/interactive-coding-challenges)?
+Poszukujesz materiałów, które pomogą w przygotowaniach do części rozmowy o pracę związanej z [**Kodowaniem**](https://github.com/donnemartin/interactive-coding-challenges)?
 
 <p align="center">
   <img src="http://i.imgur.com/b4YtAEN.png">
   <br/>
 </p>
 
-Check out the sister repo [**Interactive Coding Challenges**](https://github.com/donnemartin/interactive-coding-challenges), which contains an additional Anki deck:
+Sprawdź powiązane repo [**Interactive Coding Challenges**](https://github.com/donnemartin/interactive-coding-challenges), które zawiera dodatkowy Anki deck:
 
 * [Coding deck](https://github.com/donnemartin/interactive-coding-challenges/tree/master/anki_cards/Coding.apkg)
 
-## Contributing
+## Pomoc
 
-> Learn from the community.
+> Ucz się od community.
 
-Feel free to submit pull requests to help:
+Zachęcamy do pomocy (przez pull requests) przy:
 
-* Fix errors
-* Improve sections
-* Add new sections
-* [Translate](https://github.com/donnemartin/system-design-primer/issues/28)
+* Naprawianiu błędów.
+* Poprawianiu rozdziałów.
+* Dodawaniu nowych rozdziałów.
+* [Tlumaczeniu](https://github.com/donnemartin/system-design-primer/issues/28)
 
-Content that needs some polishing is placed [under development](#under-development).
+Materiały, które wymagają dopracowania są w rozdziale [Praca w toku](#under-development).
 
-Review the [Contributing Guidelines](CONTRIBUTING.md).
+Koniecznie przeczytaj [Contributing Guidelines](CONTRIBUTING.md)!
 
-## Index of system design topics
+## Spis tematów związanych z projektowaniem systemów
 
-> Summaries of various system design topics, including pros and cons.  **Everything is a trade-off**.
+> Podsumowanie różnych tematów dotyczących projektowania systemów, wraz z wadami i zaletami. **Wszystko jest kompromisem**.
 >
-> Each section contains links to more in-depth resources.
+> Każdy rozdział zawiera linki do materiałów uszczegóławiających zagadnienie.
 
 <p align="center">
   <img src="http://i.imgur.com/jrUBAF7.png">
   <br/>
 </p>
 
-* [System design topics: start here](#system-design-topics-start-here)
-    * [Step 1: Review the scalability video lecture](#step-1-review-the-scalability-video-lecture)
-    * [Step 2: Review the scalability article](#step-2-review-the-scalability-article)
-    * [Next steps](#next-steps)
-* [Performance vs scalability](#performance-vs-scalability)
-* [Latency vs throughput](#latency-vs-throughput)
-* [Availability vs consistency](#availability-vs-consistency)
-    * [CAP theorem](#cap-theorem)
-        * [CP - consistency and partition tolerance](#cp---consistency-and-partition-tolerance)
-        * [AP - availability and partition tolerance](#ap---availability-and-partition-tolerance)
-* [Consistency patterns](#consistency-patterns)
+* [Projektowanie systemów: zacznij od tego](#system-design-topics-start-here)
+    * [Krok 1: Obejrzyj wykład o skalowalności](#step-1-review-the-scalability-video-lecture)
+    * [Krok 2: Przeczytaj artykuł o skalowalności ](#step-2-review-the-scalability-article)
+    * [Następne kroki](#next-steps)
+* [Wydajność vs skalowalność](#performance-vs-scalability)
+* [Opóźnienie vs przepustowość](#latency-vs-throughput)
+* [Dostępność vs spójnosć](#availability-vs-consistency)
+    * [Teoria CAP](#cap-theorem)
+        * [CP - spójnosć i odporność na partycjonowanie](#cp---consistency-and-partition-tolerance)
+        * [AP - dostępnosć i odporność na partycjonowanie](#ap---availability-and-partition-tolerance)
+* [Wzorce projektowe zapewnienia spójności](#consistency-patterns)
     * [Weak consistency](#weak-consistency)
     * [Eventual consistency](#eventual-consistency)
     * [Strong consistency](#strong-consistency)
-* [Availability patterns](#availability-patterns)
+* [Wzorce projektowe zapewnienia dostępności](#availability-patterns)
     * [Fail-over](#fail-over)
     * [Replication](#replication)
-* [Domain name system](#domain-name-system)
-* [Content delivery network](#content-delivery-network)
+* [Domain name system - DNS](#domain-name-system)
+* [Content delivery network - CDN](#content-delivery-network)
     * [Push CDNs](#push-cdns)
     * [Pull CDNs](#pull-cdns)
 * [Load balancer](#load-balancer)
-    * [Active-passive](#active-passive)
-    * [Active-active](#active-active)
-    * [Layer 4 load balancing](#layer-4-load-balancing)
-    * [Layer 7 load balancing](#layer-7-load-balancing)
-    * [Horizontal scaling](#horizontal-scaling)
+    * [Aktywny-pasywny](#active-passive)
+    * [Aktywny-aktywny](#active-active)
+    * [Load balancing w warstwie 4](#layer-4-load-balancing)
+    * [Load balancing w warstwie 7](#layer-7-load-balancing)
+    * [Skalowanie poziome](#horizontal-scaling)
 * [Reverse proxy (web server)](#reverse-proxy-web-server)
     * [Load balancer vs reverse proxy](#load-balancer-vs-reverse-proxy)
-* [Application layer](#application-layer)
-    * [Microservices](#microservices)
+* [Warstwa aplikacji](#application-layer)
+    * [Mikorserwisy](#microservices)
     * [Service discovery](#service-discovery)
-* [Database](#database)
-    * [Relational database management system (RDBMS)](#relational-database-management-system-rdbms)
+* [Baza danych](#database)
+    * [System zarządzania relacyjną bazą danych (RDBMS)](#relational-database-management-system-rdbms)
         * [Master-slave replication](#master-slave-replication)
         * [Master-master replication](#master-master-replication)
         * [Federation](#federation)
@@ -142,39 +142,39 @@ Review the [Contributing Guidelines](CONTRIBUTING.md).
         * [Graph Database](#graph-database)
     * [SQL or NoSQL](#sql-or-nosql)
 * [Cache](#cache)
-    * [Client caching](#client-caching)
+    * [Cache po stronie klienta](#client-caching)
     * [CDN caching](#cdn-caching)
-    * [Web server caching](#web-server-caching)
-    * [Database caching](#database-caching)
-    * [Application caching](#application-caching)
-    * [Caching at the database query level](#caching-at-the-database-query-level)
-    * [Caching at the object level](#caching-at-the-object-level)
-    * [When to update the cache](#when-to-update-the-cache)
+    * [Cache po stronie web servera](#web-server-caching)
+    * [Cache w bazie danych](#database-caching)
+    * [Cache w aplikacji](#application-caching)
+    * [Cache na poziomie zapytań do bazy](#caching-at-the-database-query-level)
+    * [Cache na poziomie obiektu](#caching-at-the-object-level)
+    * [Kiedy uaktualniać cache?](#when-to-update-the-cache)
         * [Cache-aside](#cache-aside)
         * [Write-through](#write-through)
         * [Write-behind (write-back)](#write-behind-write-back)
         * [Refresh-ahead](#refresh-ahead)
-* [Asynchronism](#asynchronism)
-    * [Message queues](#message-queues)
-    * [Task queues](#task-queues)
+* [ASynchroniczność](#asynchronism)
+    * [Kolejki wiadomości](#message-queues)
+    * [Kolejki zadań](#task-queues)
     * [Back pressure](#back-pressure)
-* [Communication](#communication)
+* [Komunikacja](#communication)
     * [Transmission control protocol (TCP)](#transmission-control-protocol-tcp)
     * [User datagram protocol (UDP)](#user-datagram-protocol-udp)
     * [Remote procedure call (RPC)](#remote-procedure-call-rpc)
     * [Representational state transfer (REST)](#representational-state-transfer-rest)
 * [Security](#security)
-* [Appendix](#appendix)
-    * [Powers of two table](#powers-of-two-table)
-    * [Latency numbers every programmer should know](#latency-numbers-every-programmer-should-know)
-    * [Additional system design interview questions](#additional-system-design-interview-questions)
-    * [Real world architectures](#real-world-architectures)
-    * [Company architectures](#company-architectures)
-    * [Company engineering blogs](#company-engineering-blogs)
-* [Under development](#under-development)
+* [Dodatki](#appendix)
+    * [Potęgi 2](#powers-of-two-table)
+    * [Opóźnienia, które powinien znać każdy programista](#latency-numbers-every-programmer-should-know)
+    * [Dodatkowe pytania z projektowania systemów podczas rozmowy o pracę](#additional-system-design-interview-questions)
+    * [Przykłady architektur istniejących systemów](#real-world-architectures)
+    * [Przykłady architektur z podziałem na firmy](#company-architectures)
+    * [Blogi inżynierów z podziałem na firmy](#company-engineering-blogs)
+* [Praca w toku](#under-development)
 * [Credits](#credits)
 * [Contact info](#contact-info)
-* [License](#license)
+* [Licencja](#license)
 
 ## Study guide
 
