@@ -35,7 +35,7 @@ Poza zwyczajowym testem z kodowania, projektowanie systemów jest **niezbędnym 
 
 Dodatkowe tematy związane z przygotowaniem do rozmowy o pracę:
 
-* [Przewodnik](#study-guide)
+* [Przewodnik](#przewodnik)
 * [Jak odpowiadać na pytania o projektowanie systemów](#how-to-approach-a-system-design-interview-question)
 * [Rozmowa o pracę: pytania z projektowania systemów. **Z rozwiązaniami!**](#system-design-interview-questions-with-solutions)
 * [Rozmowa o pracę: pytania z projektowania zorientowania. **Z rozwiązaniami!**](#object-oriented-design-interview-questions-with-solutions)
@@ -176,41 +176,42 @@ Koniecznie przeczytaj [Contributing Guidelines](CONTRIBUTING.md)!
 * [Contact info](#contact-info)
 * [Licencja](#license)
 
-## Study guide
+## Przewodnik
 
-> Suggested topics to review based on your interview timeline (short, medium, long).
+> Proponowana lista tematów, do odświeżenia, w zalężności od dlugości rozmowy o pracę (krótkie, średnie, długie).
 
 ![Imgur](http://i.imgur.com/OfVllex.png)
 
-**Q: For interviews, do I need to know everything here?**
+**Q: Czy muszę wiedzieć wszystko na temat podczas rozmowy o pracę?**
 
-**A: No, you don't need to know everything here to prepare for the interview**.
+**A: Nie, nikt nie będzie oczekiwał, że opanujesz cały materiał podczas przygotywań**.
 
-What you are asked in an interview depends on variables such as:
+O co zostaniesz zapytany zależy od:
 
-* How much experience you have
-* What your technical background is
-* What positions you are interviewing for
-* Which companies you are interviewing with
-* Luck
+* Jak doświadczony jesteś
+* Jakie masz zaplecze techniczne
+* Na jaką pozycję aplikujesz
+* Do jakiej firmy aplikujesz
+* Szczęście
 
-More experienced candidates are generally expected to know more about system design.  Architects or team leads might be expected to know more than individual contributors.  Top tech companies are likely to have one or more design interview rounds.
+Zasadniczo, od kandydatów z większym doświadczniem oczekuje się większej wiedzy z zakresu projetkowania systemów. Architekci i liderzy zespołów powinni wiedzieć więcej niż "zwykli deweloperzy". Podczas rozmowy o pracę do największych firm z branży można oczekiwać conajmniej jednej serii pytań o projektowanie systemów.
 
-Start broad and go deeper in a few areas.  It helps to know a little about various key system design topics.  Adjust the following guide based on your timeline, experience, what positions you are interviewing for, and which companies you are interviewing with.
+Zacznij od wiedzy ogólnej, kolejno zagłębiaj się w kilka wybranych obszarów. Jeśli wiesz więcej o projektowaniu kluczowych elementów systemu, tym lepiej. Wybierz ścieżkę z poradnika w zależności od tego ile masz czasu, jakie masz doświadczenie, na jaką pozycję aplikujesz i wreszcie, w jakiej firmie starasz się o pracę.
 
-* **Short timeline** - Aim for **breadth** with system design topics.  Practice by solving **some** interview questions.
-* **Medium timeline** - Aim for **breadth** and **some depth** with system design topics.  Practice by solving **many** interview questions.
-* **Long timeline** - Aim for **breadth** and **more depth** with system design topics.  Practice by solving **most** interview questions.
+* **Szybka ścieżka** - Celem jest zdobycie **szerokiej** wiedzy o projektowaniu systemów. W ramach praktyki rozwiąż **kilka** zadań z rozmów o pracę.
+* **Średnia ścieżka** - Celem jest zdobycie **szerokiej** wiedzy o projektowaniu systemów i **pogłębienie** jej w kilku wybranych zagadnieniach. W ramach praktyki rozwiąż **wiele** zadań z rozmów o pracę.
 
-| | Short | Medium | Long |
+* **Długa ścieżka** - Celem jest zdobycie **szerokiej** wiedzy o projektowaniu systemów i **dalsze jej pogłębienie**. W ramach praktyki rozwiąż **większość** zadań z rozmów o pracę.
+
+| | Krótka | średnia | Długa |
 |---|---|---|---|
-| Read through the [System design topics](#index-of-system-design-topics) to get a broad understanding of how systems work | :+1: | :+1: | :+1: |
-| Read through a few articles in the [Company engineering blogs](#company-engineering-blogs) for the companies you are interviewing with | :+1: | :+1: | :+1: |
-| Read through a few [Real world architectures](#real-world-architectures) | :+1: | :+1: | :+1: |
-| Review [How to approach a system design interview question](#how-to-approach-a-system-design-interview-question) | :+1: | :+1: | :+1: |
-| Work through [System design interview questions with solutions](#system-design-interview-questions-with-solutions) | Some | Many | Most |
-| Work through [Object-oriented design interview questions with solutions](#object-oriented-design-interview-questions-with-solutions) | Some | Many | Most |
-| Review [Additional system design interview questions](#additional-system-design-interview-questions) | Some | Many | Most |
+| Przeczytaj [Spis tematów związanych z projektowaniem systemów](#index-of-system-design-topics) aby zrozumieć jak działa system wysokopoziomowo | :+1: | :+1: | :+1: |
+| Przecztaj kilka artykułów z [Company engineering blogs](#company-engineering-blogs) prowadzonych przez firmy do których aplikujesz | :+1: | :+1: | :+1: |
+| Przeczytaj o kilku [Real world architectures](#real-world-architectures) | :+1: | :+1: | :+1: |
+| Przejrzyj [How to approach a system design interview question](#how-to-approach-a-system-design-interview-question) | :+1: | :+1: | :+1: |
+| Popracuj nad [System design interview questions with solutions](#system-design-interview-questions-with-solutions) | Kilka | Wiele | Większość |
+| Popracuj nad [Object-oriented design interview questions with solutions](#object-oriented-design-interview-questions-with-solutions) | Kilka | Wiele | Większość |
+| Przejrzyj [Additional system design interview questions](#additional-system-design-interview-questions) | Kilka | Wiele | Większość |
 
 ## How to approach a system design interview question
 
