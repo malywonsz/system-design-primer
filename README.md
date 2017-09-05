@@ -213,69 +213,69 @@ Zacznij od wiedzy ogólnej, kolejno zagłębiaj się w kilka wybranych obszarów
 | Popracuj nad [Object-oriented design interview questions with solutions](#object-oriented-design-interview-questions-with-solutions) | Kilka | Wiele | Większość |
 | Przejrzyj [Additional system design interview questions](#additional-system-design-interview-questions) | Kilka | Wiele | Większość |
 
-## How to approach a system design interview question
+## Jak sobie poradzić na rozmowie kwalifikacyjnej z projektowania systemów
 
-> How to tackle a system design interview question.
+> Jak odpowiadać na pytania o projektowaniu systemów
 
-The system design interview is an **open-ended conversation**.  You are expected to lead it.
+Rozmowa kwalifikacyjnej z projektowania systemów przynosi ze sobą **pytania otwarte** i oczekuje się, że rekrutowany będzie stroną prowadzącą.
 
-You can use the following steps to guide the discussion.  To help solidify this process, work through the [System design interview questions with solutions](#system-design-interview-questions-with-solutions) section using the following steps.
+Podczas rozmowy można posłużyć się poniższym wzorem, żeby skierować ją na właściwe tory. Aby umocnić swoje rozumienie tematu, należy przejrzeć dział [Pytania na rozmowie kwalifikacyjnej z rozwiązaniami](#system-design-interview-questions-with-solutions) i skorzystać z poniższych kroków.
 
-### Step 1: Outline use cases, constraints, and assumptions
+### Krok 1: Zarysowanie przypadku użycia, ograniczeń i założeń
 
-Gather requirements and scope the problem.  Ask questions to clarify use cases and constraints.  Discuss assumptions.
+Celem kroku jest zebranie wymagań i określanie problemu. Podczas tego kroku należy zadawać pytania aby wyjaśnić przypadek użycia i ograniczenia. Należy także przedstawić założenia jakie ma się na rozwiązanie problemu.
 
-* Who is going to use it?
-* How are they going to use it?
-* How many users are there?
-* What does the system do?
-* What are the inputs and outputs of the system?
-* How much data do we expect to handle?
-* How many requests per second do we expect?
-* What is the expected read to write ratio?
+* Kto będzie używał rozwiązania? 
+* W jaki sposób rozwiązanie będzie użyte?
+* Ilu jest użytkowników?
+* Co powinien robić system?
+* Jakie są wejścia i wyjścia systemu?
+* Ile danych system powinien przetwarzać?
+* Ile zapytań na sekundę system powinien obsługiwać?
+* Jaki jest oczekiwany stosunek odczytów do zapisów?
 
-### Step 2: Create a high level design
+### Krok 2: Stworzenie wysokopoziomowy projekt systemu
 
-Outline a high level design with all important components.
+Stwórz wysokopoziomowy projekt systemu zarysowując najważniejsze jego komponenty.
 
-* Sketch the main components and connections
-* Justify your ideas
+* Zrób diagram głównych komponentów i połączeń między nimi.
+* Uargumentuj swoje rozwiązanie.
 
-### Step 3: Design core components
+### Krok 3: Zaprojektowanie kluczowych elementów
 
-Dive into details for each core component.  For example, if you were asked to [design a url shortening service](solutions/system_design/pastebin/README.md), discuss:
+Dla każdego kluczowego elementu stwórz dokładniejszy projekt. Na przykład, jeśli zadaniem jest [stworzenie projektu serwisu skracającego URL](solutions/system_design/pastebin/README.md), do omówienia są następujące zagadnienia:
 
-* Generating and storing a hash of the full url
-    * [MD5](solutions/system_design/pastebin/README.md) and [Base62](solutions/system_design/pastebin/README.md)
-    * Hash collisions
-    * SQL or NoSQL
-    * Database schema
-* Translating a hashed url to the full url
-    * Database lookup
-* API and object-oriented design
+* Generowanie i przechowywanie hasha pelnego URLa
+    * [MD5](solutions/system_design/pastebin/README.md) i [Base62](solutions/system_design/pastebin/README.md)
+    * kolizja hashy
+    * SQL lub NoSQL
+    * Schemat bazy danych
+* Zamiana skróconego URLa na pełny URL
+    * wyszukiwanie w bazie danych
+* API i projekt klas
 
-### Step 4: Scale the design
+### Krok 4: Skalowalność projektu
 
-Identify and address bottlenecks, given the constraints.  For example, do you need the following to address scalability issues?
+Celem kroku jest zidentyfikowanie potencjalnych wąskich gardeł i podanie ograniczeń. Na przykład, czy w rozwiązaniu problemów ze skalowalnością pomogą:
 
 * Load balancer
-* Horizontal scaling
-* Caching
+* Skalowanie poziome
+* Cache’owanie
 * Database sharding
 
-Discuss potential solutions and trade-offs.  Everything is a trade-off.  Address bottlenecks using [principles of scalable system design](#index-of-system-design-topics).
+Należy umówić potencjalne rozwiązania i kompromisy. Wszystko jest pewnego rodzaju kompromisem. Trzeba zaadresować problemy z przepustowością używając [zasad projektowania skalowalnych systemów](#index-of-system-design-topics).
 
-### Back-of-the-envelope calculations
+### Szybkie estymaty
 
-You might be asked to do some estimates by hand.  Refer to the [Appendix](#appendix) for the following resources:
+Podczas rozmowy można zostać poproszonym o odręczne wykonanie estymat. W [Dodatek](#appendix) znajdują się następujące zasoby, które mogą być przydatne w tym zadaniu:
 
 * [Use back of the envelope calculations](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)
-* [Powers of two table](#powers-of-two-table)
-* [Latency numbers every programmer should know](#latency-numbers-every-programmer-should-know)
+* [Tablica potęg dwójki](#powers-of-two-table)
+* [Wartości opóźnień, które powinine znać każdy programista](#latency-numbers-every-programmer-should-know)
 
-### Source(s) and further reading
+### Źródła i dodatkowe materiały
 
-Check out the following links to get a better idea of what to expect:
+Poniżej znajduje się lista dodatkowych materiałów, które pozwolą zrozumieć jakie są oczekiwania:
 
 * [How to ace a systems design interview](https://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
 * [The system design interview](http://www.hiredintech.com/system-design)
