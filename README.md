@@ -281,69 +281,69 @@ Poniżej znajduje się lista dodatkowych materiałów, które pozwolą zrozumie�
 * [The system design interview](http://www.hiredintech.com/system-design)
 * [Intro to Architecture and Systems Design Interviews](https://www.youtube.com/watch?v=ZgdS0EUmn70)
 
-## System design interview questions with solutions
+## Pytania z projektowania systemów wraz z rozwiązaniami
 
-> Common system design interview questions with sample discussions, code, and diagrams.
+> Częste pytania z proejtkowania systemów razem z omówieniem rozwiązań, kodem i diagramami.
 >
-> Solutions linked to content in the `solutions/` folder.
+> Rozwiązania linkują do katalogu  `solutions/`.
 
-| Question | |
+| Pytania | |
 |---|---|
-| Design Pastebin.com (or Bit.ly) | [Solution](solutions/system_design/pastebin/README.md) |
-| Design the Twitter timeline (or Facebook feed)<br/>Design Twitter search (or Facebook search) | [Solution](solutions/system_design/twitter/README.md) |
-| Design a web crawler | [Solution](solutions/system_design/web_crawler/README.md) |
-| Design Mint.com | [Solution](solutions/system_design/mint/README.md) |
-| Design the data structures for a social network | [Solution](solutions/system_design/social_graph/README.md) |
-| Design a key-value store for a search engine | [Solution](solutions/system_design/query_cache/README.md) |
-| Design Amazon's sales ranking by category feature | [Solution](solutions/system_design/sales_rank/README.md) |
-| Design a system that scales to millions of users on AWS | [Solution](solutions/system_design/scaling_aws/README.md) |
-| Add a system design question | [Contribute](#contributing) |
+| Zaprojektuj Pastebin.com (lub Bit.ly) | [Solution](solutions/system_design/pastebin/README.md) |
+| Zaprojektuj timeline Twittera (lub Facebooka)<br/>Zaprojektuj wyszukiwarkę w Twitterze (lub Facebooku) | [Solution](solutions/system_design/twitter/README.md) |
+| Zaprojektuj web crawler | [Solution](solutions/system_design/web_crawler/README.md) |
+| Zaprojektuj Mint.com | [Solution](solutions/system_design/mint/README.md) |
+| Zaprojektur struktury danych dla social network | [Solution](solutions/system_design/social_graph/README.md) |
+| Zaprojektuj strukturę klucz-wartość dla silnika wyszukiwarki | [Solution](solutions/system_design/query_cache/README.md) |
+| Zaprojektuj Amazonowy ranking sprzedaży z filtrowaniem po kategoriach | [Solution](solutions/system_design/sales_rank/README.md) |
+| Zaprojektuj system, który skaluje się na milionów użytkowników przy użyciu AWS | [Solution](solutions/system_design/scaling_aws/README.md) |
+| Dodaj pytanie z projektowania systemów | [Contribute](#contributing) |
 
-### Design Pastebin.com (or Bit.ly)
+### Zaprojektuj Pastebin.com  (lub Bit.ly)
 
-[View exercise and solution](solutions/system_design/pastebin/README.md)
+[Zobacz ćwiczenie i odpowiedź](solutions/system_design/pastebin/README.md)
 
 ![Imgur](http://i.imgur.com/4edXG0T.png)
 
-### Design the Twitter timeline and search (or Facebook feed and search)
+### Zaprojektuj timeline i wyszukiwarkę Twittera (lub Facebooka)
 
-[View exercise and solution](solutions/system_design/twitter/README.md)
+[Zobacz ćwiczenie i odpowiedź](solutions/system_design/twitter/README.md)
 
 ![Imgur](http://i.imgur.com/jrUBAF7.png)
 
-### Design a web crawler
+### Zaprojektuj web crawler
 
-[View exercise and solution](solutions/system_design/web_crawler/README.md)
+[Zobacz ćwiczenie i odpowiedź](solutions/system_design/web_crawler/README.md)
 
 ![Imgur](http://i.imgur.com/bWxPtQA.png)
 
-### Design Mint.com
+### Zaprojektuj Mint.com
 
-[View exercise and solution](solutions/system_design/mint/README.md)
+[Zobacz ćwiczenie i odpowiedź](solutions/system_design/mint/README.md)
 
 ![Imgur](http://i.imgur.com/V5q57vU.png)
 
-### Design the data structures for a social network
+### Zaprojektur struktury danych dla social network
 
-[View exercise and solution](solutions/system_design/social_graph/README.md)
+[Zobacz ćwiczenie i odpowiedź](solutions/system_design/social_graph/README.md)
 
 ![Imgur](http://i.imgur.com/cdCv5g7.png)
 
-### Design a key-value store for a search engine
+### Zaprojektuj strukturę klucz-wartość dla silnika wyszukiwarki
 
-[View exercise and solution](solutions/system_design/query_cache/README.md)
+[Zobacz ćwiczenie i odpowiedź](solutions/system_design/query_cache/README.md)
 
 ![Imgur](http://i.imgur.com/4j99mhe.png)
 
-### Design Amazon's sales ranking by category feature
+### Zaprojektuj Amazonowy ranking sprzedaży z filtrowaniem po kategoriach
 
-[View exercise and solution](solutions/system_design/sales_rank/README.md)
+[Zobacz ćwiczenie i odpowiedź](solutions/system_design/sales_rank/README.md)
 
 ![Imgur](http://i.imgur.com/MzExP06.png)
 
-### Design a system that scales to millions of users on AWS
+### Zaprojektuj system, który skaluje się na milionów użytkowników przy użyciu AW
 
-[View exercise and solution](solutions/system_design/scaling_aws/README.md)
+[Zobacz ćwiczenie i odpowiedź](solutions/system_design/scaling_aws/README.md)
 
 ![Imgur](http://i.imgur.com/jj3A5N8.png)
 
