@@ -505,21 +505,21 @@ W rozproszonym systemie komputerowym można obsługiwać tylko dwie z poniższyc
 
 - **Spójności** - Każdy odczyt otrzymuje ostatni zapis lub błąd
 - **Dostępności** - Każde żądanie otrzymuje odpowiedź, bez gwarancji, że zawiera najnowszą wersję informacji
-- **Tolerancja partycji** - system nadal działa pomimo dowolnego rozdzielenia z powodu awarii sieci.
+- **Tolerancja podziału** - system nadal działa pomimo dowolnego rozdzielenia z powodu awarii sieci.
 
-*Sieci nie są niezawodne, dlatego trzeba będzie wspierać tolerancję partycji. Będziesz musiał dokonać kompromisu pomiędzy spójnością i dostępnością oprogramowania.*
+*Sieci nie są niezawodne, dlatego trzeba będzie wspierać tolerancję podziału. Będziesz musiał dokonać kompromisu pomiędzy spójnością i dostępnością oprogramowania.*
 
-#### CP - consistency and partition tolerance
+#### CP - spójność i tolerancja podziału
 
-Waiting for a response from the partitioned node might result in a timeout error.  CP is a good choice if your business needs require atomic reads and writes.
+Oczekiwanie na odpowiedź od partycjonowanego węzła może powodować błąd przekroczenia maksymalnego czasu oczekiwania. CP jest dobrym wyborem jeśli jednym z założeń biznesowych jest atomowy odczyt i zapis.
 
-#### AP - availability and partition tolerance
+#### AP - dostępność i tolerancja podziału
 
-Responses return the most recent version of the data available on a node, which might not be the latest.  Writes might take some time to propagate when the partition is resolved.
+Responderzy zwracają najaktualniejszą wersję danch dostępnych w węźle, nie znaczy to, że jest to ostatnia wersja. Zapisy mogą trwać, z powodu propagacji danych związanej z ich partycjonowaniem. 
+ 
+AP jest dobrym wyborem jeśli biznes powinien pozwalać na [eventual consistency](#eventual-consistency) lub gdy system musi działać pomimo zewnętrznych błędów.
 
-AP is a good choice if the business needs allow for [eventual consistency](#eventual-consistency) or when the system needs to continue working despite external errors.
-
-### Source(s) and further reading
+### Źródła i dalsza lektura
 
 * [CAP theorem revisited](http://robertgreiner.com/2014/08/cap-theorem-revisited/)
 * [A plain english introduction to CAP theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
